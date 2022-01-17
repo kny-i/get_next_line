@@ -4,7 +4,9 @@ char 	read_fd(fd, tmp_save)
 	char 	*buff;
 	ssize_t	read_len;
 
-	buff = char
+	buff = (char *)ft_calloc(sizeof(char), (size_t)BUFFER_SIZE + 1));
+	if(!buff)
+		return(NULL);
 }
 
 char	*get_next_line(int fd)
