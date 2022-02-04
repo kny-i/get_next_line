@@ -1,3 +1,4 @@
+/*
 #include "get_next_line.h"
 
 int	main ()
@@ -23,5 +24,8 @@ int	main ()
 	}
 	close(fd);
 	printf("\n");
-	//system("leaks a.out");
+*/
+/*	system("leaks a.out");*//*
+
 }
+*/
